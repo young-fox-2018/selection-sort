@@ -1,7 +1,7 @@
 function selSort(input){
     
     for (var i = 0; i < input.length; i++){
-        var min = 9999999999;
+        var min = input[i];
         var index 
         for(var j = i; j < input.length; j++){
             if(input[j] < min){
